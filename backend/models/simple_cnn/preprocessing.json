@@ -1,0 +1,18 @@
+{
+  "input_shape": [
+    1,
+    224,
+    224,
+    3
+  ],
+  "dtype": "float32",
+  "color": "RGB",
+  "input_range": [
+    0,
+    255
+  ],
+  "orientation": "Apply EXIF transpose; composite transparency on black.",
+  "resize": "Pillow ImageOps.contain, bilinear; center on black 224x224 canvas using floor offsets.",
+  "normalization": "Rescaling(1/255) is inside the model. Do not normalize twice.",
+  "output": "Six softmax scores in class_names.json order."
+}

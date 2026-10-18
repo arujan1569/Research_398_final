@@ -1,0 +1,26 @@
+{
+  "pipeline_version": "simple-cnn-1.0",
+  "architecture": "conv32-conv64-conv128-gap-dense128-dropout-softmax6",
+  "archive_sha256": "1c201cb503cb69c642e32e14ff7d5470bae5c77bbfcfbcd138a440b7df65ff95",
+  "seed": 42,
+  "metadata_sha256": null,
+  "previous_split_sha256": null,
+  "batch_size": 32,
+  "epochs": 80,
+  "learning_rate": 0.001,
+  "dropout": 0.3,
+  "l2": 0.0001,
+  "early_stopping_patience": 12,
+  "lr_patience": 4,
+  "class_weights": true,
+  "class_names": [
+    "Bacterial Leaf Blight",
+    "Brown Spot",
+    "Healthy Rice Leaf",
+    "Leaf Blast",
+    "Leaf scald",
+    "Sheath Blight"
+  ],
+  "tensorflow": "2.20.0",
+  "keras": "3.11.3"
+}

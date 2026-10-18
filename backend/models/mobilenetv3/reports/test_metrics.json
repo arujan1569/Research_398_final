@@ -1,0 +1,18 @@
+{
+  "keras": {
+    "images": 734,
+    "accuracy": 0.8937329700272479,
+    "balanced_accuracy": 0.8859395857274968,
+    "macro_f1": 0.883198147377202,
+    "cross_entropy": 0.36638563871383667
+  },
+  "mobile": {
+    "images": 734,
+    "accuracy": 0.8937329700272479,
+    "balanced_accuracy": 0.8859395857274968,
+    "macro_f1": 0.883198147377202,
+    "cross_entropy": 0.36523735523223877
+  },
+  "mobile_variant": "float16",
+  "agreement": 1.0
+}

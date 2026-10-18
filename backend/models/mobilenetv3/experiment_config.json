@@ -1,0 +1,27 @@
+{
+  "archive_sha256": "1c201cb503cb69c642e32e14ff7d5470bae5c77bbfcfbcd138a440b7df65ff95",
+  "seed": 42,
+  "metadata_sha256": null,
+  "batch_size": 32,
+  "head_epochs": 10,
+  "fine_tune_epochs": 30,
+  "head_lr": 0.001,
+  "fine_tune_lr": 1e-05,
+  "fine_tune_blocks": 3,
+  "dropout": 0.3,
+  "l2": 0.0001,
+  "class_names": [
+    "Bacterial Leaf Blight",
+    "Brown Spot",
+    "Healthy Rice Leaf",
+    "Leaf Blast",
+    "Leaf scald",
+    "Sheath Blight"
+  ],
+  "tensorflow": "2.20.0",
+  "keras": "3.11.3",
+  "export_int8": true,
+  "max_quantized_f1_drop": 0.005,
+  "max_quantized_agreement_drop": 0.01,
+  "pipeline_version": "1.0"
+}

@@ -1,0 +1,22 @@
+{
+  "input_shape": [
+    1,
+    224,
+    224,
+    3
+  ],
+  "layout": "NHWC",
+  "orientation": "Apply EXIF transpose before resizing.",
+  "color": "RGB; composite transparency on black; do not use BGR.",
+  "resize": "Preserve aspect ratio using Pillow ImageOps.contain with bilinear interpolation.",
+  "padding": "Center on black 224x224 canvas; floor division for top/left offsets.",
+  "float_input_range": [
+    0,
+    255
+  ],
+  "normalization": "Inside MobileNetV3. Do not divide by 255 or apply a second normalization.",
+  "output": "Six softmax scores in class_names.json order, not calibrated diagnostic probabilities.",
+  "integer_input": "Read mobile_io.json and apply the selected model's scale/zero_point.",
+  "pillow_version": "11.3.0",
+  "mobile_parity": "Platform resize implementations can differ. Validate preprocessing with reference cases."
+}

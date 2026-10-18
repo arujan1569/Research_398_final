@@ -1,0 +1,16 @@
+{
+  "simple_cnn": {
+    "images": 734,
+    "accuracy": 0.8337874659400545,
+    "balanced_accuracy": 0.835998867570315,
+    "macro_f1": 0.8242035119074229,
+    "cross_entropy": 0.47537556290626526
+  },
+  "tflite": {
+    "images": 734,
+    "accuracy": 0.8337874659400545,
+    "balanced_accuracy": 0.835998867570315,
+    "macro_f1": 0.8242035119074229,
+    "cross_entropy": 0.4753744900226593
+  }
+}
